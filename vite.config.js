@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: 'src/pages',
-  base: '/',
+  root: './',
+  base: '/NoName/',
   server: {
     port: 5173,
   },
   build: {
-    outDir: '../../dist',
+    outDir: 'dist',
     assetsDir: 'assets',
     minify: 'terser',
     terserOptions: {
@@ -17,6 +17,7 @@ export default defineConfig({
       mangle: true,
     },
     rollupOptions: {
+      input: 'index.html',
       output: {
         manualChunks: undefined,
         entryFileNames: '[name].[hash].js',

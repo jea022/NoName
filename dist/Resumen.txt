@@ -1,0 +1,229 @@
+# Desarrollo Detallado del Producto de Landing Pages
+
+---
+
+## 1. Visión del producto
+
+### 1.1 Qué es el producto
+
+El producto es un sistema interno y estandarizado para diseñar, desarrollar y entregar landing pages profesionales enfocadas en conversión. Este sistema combina estrategia, estructura, diseño, copywriting y optimización técnica en un único flujo de trabajo repetible. Su objetivo no es solo entregar una página web, sino una herramienta digital lista para generar resultados medibles desde el primer momento.
+
+### 1.2 Qué problema resuelve
+
+Resuelve la falta de claridad, estrategia y efectividad que tienen muchos negocios en su presencia digital. Muchos emprendedores tienen páginas lentas, mal estructuradas o sin un mensaje claro, lo que provoca pérdida de oportunidades. Este producto elimina la improvisación y ofrece una solución concreta, enfocada en un solo objetivo y alineada con el negocio del cliente.
+
+### 1.3 En qué se diferencia
+
+Se diferencia porque está pensado como un producto, no como un trabajo artesanal distinto cada vez. Tiene procesos claros, estructura reutilizable y decisiones basadas en conversión, no en gustos personales. Esto permite escalar, mantener calidad constante y reducir tiempos sin sacrificar resultados.
+
+---
+
+## 2. Público objetivo
+
+### 2.1 Emprendedores pequeños
+
+Emprendedores que están validando su idea o empezando a vender y necesitan una presencia digital profesional que inspire confianza. No suelen tener claridad técnica ni grandes presupuestos, por lo que valoran soluciones claras, rápidas y enfocadas en resultados concretos.
+
+### 2.2 Negocios locales
+
+Negocios físicos o de servicios que necesitan atraer clientes de su zona mediante internet. Buscan visibilidad, contactos y llamadas, no páginas complejas. La landing funciona como puente entre el mundo digital y el contacto real.
+
+### 2.3 Marcas personales
+
+Profesionales que venden servicios basados en su conocimiento o imagen. Necesitan comunicar autoridad, claridad y diferenciación. La landing debe posicionarlos como expertos y facilitar el contacto directo.
+
+---
+
+## 3. Propuesta de valor
+
+### 3.1 Beneficio principal
+
+Entregar una landing page estratégica que transforme visitas en oportunidades reales de negocio, alineada con los objetivos del cliente y su público.
+
+### 3.2 Beneficios secundarios
+
+Ahorro de tiempo, claridad del mensaje, mejora de la percepción de marca, base sólida para campañas de marketing y facilidad para escalar en el futuro.
+
+### 3.3 Promesa clara
+
+El cliente obtiene una página optimizada, rápida y enfocada en conversión, lista para usar y medir, sin depender de soluciones improvisadas.
+
+---
+
+## 4. Producto principal: Landing page
+
+### 4.1 Tipo de página
+
+Landing page de una sola página, diseñada para cumplir un objetivo específico. Evita distracciones innecesarias y guía al usuario a una acción clara.
+
+### 4.2 Alcance del producto
+
+Incluye análisis básico del negocio, estructura estratégica, diseño visual coherente, copy base orientado a conversión, desarrollo front-end y publicación. No incluye funcionalidades avanzadas fuera del objetivo principal.
+
+### 4.3 Resultado esperado
+
+Una página profesional, funcional y coherente, preparada para generar leads, ventas o contactos desde su lanzamiento.
+
+---
+
+## 5. Estructura de la landing
+
+### 5.1 Hero section
+
+Sección inicial con un titular principal acompañado de una **animación de escritura (typing)** que refuerza el mensaje clave. Incluye subtítulo claro y llamada a la acción visible desde el primer pantallazo. El objetivo es captar atención inmediata y comunicar valor en segundos.
+
+### 5.2 Dividers y separación visual
+
+Uso de **dividers con márgenes laterales**, no a ancho completo, para separar secciones de forma elegante. Ayudan a organizar el contenido sin saturar visualmente y mejoran la lectura vertical.
+
+### 5.3 Sección de problema y solución
+
+Presentación del problema del usuario seguida de la solución propuesta, ambas integradas dentro de un **grid responsivo automático** que se adapta a dispositivos sin necesidad de layouts duplicados.
+
+### 5.4 Cards de beneficios
+
+Beneficios presentados en cards con **efectos hover sutiles**, que aportan feedback visual y mejoran la percepción de calidad sin distraer del contenido.
+
+### 5.5 Estilo visual
+
+Uso de **gradientes sutiles en fondos** para dar profundidad, junto con **bordes coloreados en elementos clave** (cards, CTAs, secciones importantes) para guiar la atención del usuario.
+
+### 5.6 Navegación y experiencia
+
+Implementación de **smooth scroll entre secciones** para una experiencia fluida al navegar o usar enlaces internos.
+
+### 5.7 Enfoque técnico de estilos
+
+Toda la landing se desarrolla sin estilos inline, utilizando **CSS puro modular**, organizado por secciones y componentes para facilitar mantenimiento, reutilización y escalabilidad.
+
+---
+
+## 6. Copywriting
+
+### 6.1 Lenguaje
+
+Lenguaje sencillo, directo y humano. Se evita jerga técnica innecesaria y se prioriza la claridad.
+
+### 6.2 Enfoque
+
+El mensaje se centra en el cliente, su problema y su resultado esperado, no en la empresa o el proceso interno.
+
+### 6.3 Mensaje principal
+
+Una idea central fuerte que se refuerza en toda la landing para mantener coherencia y claridad.
+
+---
+
+## 7. SEO y optimización
+
+### 7.1 SEO básico
+
+Optimización de estructura HTML, encabezados, metadatos y contenido orientado a palabras clave relevantes.
+
+### 7.2 Rendimiento
+
+Carga rápida mediante optimización de imágenes, uso eficiente de recursos y código limpio.
+
+### 7.3 Accesibilidad
+
+Buenas prácticas de contraste, legibilidad y navegación para mejorar la experiencia de todos los usuarios.
+
+---
+
+## 8. Proceso de trabajo
+
+### 8.1 Briefing
+
+Recopilación estructurada de información del negocio, objetivos, público y expectativas.
+
+### 8.2 Diseño y estructura
+
+Definición del layout, jerarquía visual y flujo del usuario antes del desarrollo.
+
+### 8.3 Desarrollo
+
+Implementación técnica siguiendo el sistema base y buenas prácticas.
+
+### 8.4 Revisión
+
+Ronda de ajustes controlada para asegurar coherencia con el objetivo.
+
+---
+
+## 9. Briefing del cliente
+
+### 9.1 Información del negocio
+
+Descripción clara de qué hace el negocio, a quién se dirige y qué lo diferencia.
+
+### 9.2 Objetivo principal
+
+Definición de la acción principal que debe realizar el usuario en la landing.
+
+### 9.3 Referencias
+
+Ejemplos visuales o conceptuales para alinear expectativas.
+
+---
+
+## 10. Entregables
+
+### 10.1 Página publicada
+
+Landing page funcional, accesible y optimizada.
+
+### 10.2 Archivos base
+
+Código organizado y documentado para futuras iteraciones.
+
+### 10.3 Soporte inicial
+
+Acompañamiento corto tras la entrega para ajustes menores.
+
+---
+
+## 11. Límites del servicio
+
+### 11.1 Qué incluye
+
+Desarrollo de landing, copy base, optimización básica y publicación.
+
+### 11.2 Qué no incluye
+
+Desarrollos a medida complejos, mantenimiento continuo o sistemas externos avanzados.
+
+---
+
+## 12. Estructura técnica reutilizable
+
+### 12.1 Template base
+
+Estructura estándar de carpetas y archivos reutilizable en cada proyecto.
+
+### 12.2 Escalabilidad
+
+Permite iniciar proyectos rápidamente manteniendo consistencia y calidad.
+
+---
+
+## 13. Uso de tu propia landing
+
+### 13.1 Demo del servicio
+
+Tu propia landing funciona como demostración real del producto.
+
+### 13.2 Credibilidad
+
+Refuerza la confianza mostrando el producto en uso.
+
+---
+
+## 14. Preparación para escalar
+
+### 14.1 Base sólida
+
+Producto claramente definido, documentado y repetible.
+
+### 14.2 Próximos pasos
+
+Definir precios, marca, procesos comerciales y canales de adquisición cuando el producto esté validado.
