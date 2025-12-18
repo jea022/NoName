@@ -1,0 +1,75 @@
+/* BOTONES */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  transition: all var(--duration-base) var(--easing-cubic);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+/* Variantes */
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background-color: #1a1a1a;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--bg);
+}
+
+.btn-outline {
+  border: 2px solid var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--primary);
+  color: var(--bg);
+}
+
+.btn-small {
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-sm);
+}
+
+.btn-large {
+  padding: var(--spacing-lg) var(--spacing-2xl);
+  font-size: var(--font-size-lg);
+}
+
+/* Efecto glow al hover */
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity var(--duration-base) var(--easing-ease);
+  box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+}
+
+.btn:hover::after {
+  opacity: 1;
+}

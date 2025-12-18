@@ -1,0 +1,22 @@
+/* TIPOGRAFÍA */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 { font-size: var(--font-size-7xl); font-weight: 700; }
+h2 { font-size: var(--font-size-5xl); font-weight: 700; }
+h3 { font-size: var(--font-size-2xl); font-weight: 600; }
+h4 { font-size: var(--font-size-xl); font-weight: 600; }
+
+p { font-size: var(--font-size-base); line-height: 1.6; }
+small { font-size: var(--font-size-sm); }
+
+.text-muted { color: var(--text-light); }
+.text-lighter { color: var(--text-lighter); }
+
+@media (max-width: 768px) {
+  h1 { font-size: var(--font-size-5xl); }
+  h2 { font-size: var(--font-size-4xl); }
+  h3 { font-size: var(--font-size-xl); }
+}

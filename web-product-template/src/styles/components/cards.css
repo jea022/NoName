@@ -1,0 +1,66 @@
+/* CARDS */
+.card {
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-2xl);
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  transition: all var(--duration-base) var(--easing-cubic);
+  position: relative;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  transition: width var(--duration-base) var(--easing-ease);
+  border-radius: inherit;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent);
+}
+
+.card:hover::after {
+  width: 100%;
+}
+
+/* Variantes */
+.card-feature {
+  text-align: center;
+}
+
+.card-feature .card-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: var(--radius-lg);
+  background-color: var(--accent);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin: 0 auto var(--spacing-lg);
+  transition: all var(--duration-base) var(--easing-ease);
+}
+
+.card-feature:hover .card-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.card-title {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  margin-bottom: var(--spacing-md);
+  color: var(--text);
+}
+
+.card-description {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--text-light);
+}
