@@ -1,0 +1,124 @@
+# CODEOWNERS
+#
+# This file defines individuals or teams that are responsible for code in this repository.
+# Code owners are automatically requested for review when someone opens a pull request
+# that modifies code that they own.
+#
+# Learn more about CODEOWNERS:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# ============================================================================
+# Global Owners
+# ============================================================================
+# These owners will be the default owners for everything in the repo.
+# Unless a later match takes precedence, these users will be requested for
+# review when someone opens a pull request.
+
+# TODO: Replace with actual maintainer GitHub usernames
+# *       @maintainer-username
+
+# ============================================================================
+# Documentation
+# ============================================================================
+# Documentation files should be reviewed by documentation maintainers
+
+# TODO: Add documentation maintainers
+# *.md                    @doc-maintainer
+# docs/                   @doc-maintainer
+# CONTRIBUTING.md         @doc-maintainer
+# README.md               @doc-maintainer
+
+# ============================================================================
+# Configuration Files
+# ============================================================================
+# Build and configuration files should be reviewed by DevOps/infrastructure team
+
+# TODO: Add DevOps maintainers
+# package.json            @devops-maintainer
+# package-lock.json       @devops-maintainer
+# vite.config.js          @devops-maintainer
+# .github/                @devops-maintainer
+
+# ============================================================================
+# Source Code
+# ============================================================================
+# Core application code
+
+# Frontend components
+# TODO: Add frontend maintainers
+# src/components/         @frontend-maintainer
+
+# Styles
+# TODO: Add design/CSS maintainers
+# src/styles/             @design-maintainer
+
+# Scripts and utilities
+# TODO: Add JavaScript maintainers
+# src/scripts/            @js-maintainer
+
+# ============================================================================
+# Examples and Templates
+# ============================================================================
+# Examples and template files
+
+# TODO: Add examples maintainers
+# examples/               @examples-maintainer
+
+# ============================================================================
+# Security-Sensitive Files
+# ============================================================================
+# Files that have security implications should require review from security team
+
+# TODO: Add security team
+# SECURITY.md             @security-team
+# .github/workflows/      @security-team @devops-maintainer
+
+# ============================================================================
+# Legal and Compliance
+# ============================================================================
+# Legal documents require review from legal/compliance team
+
+# TODO: Add legal team if applicable
+# LICENSE                 @legal-team
+# CODE_OF_CONDUCT.md      @legal-team @community-maintainer
+
+# ============================================================================
+# Specific Feature Areas
+# ============================================================================
+# TODO: Add feature-specific owners as the project grows
+
+# Example patterns:
+# src/components/auth/    @auth-maintainer
+# src/components/charts/  @charts-maintainer
+# src/styles/animations/  @animation-maintainer
+
+# ============================================================================
+# Instructions for Maintainers
+# ============================================================================
+#
+# To set up code owners:
+# 1. Replace TODO comments with actual GitHub usernames (e.g., @username)
+# 2. You can also use team names if you have GitHub teams set up (e.g., @org/team-name)
+# 3. Patterns follow .gitignore format:
+#    - * matches anything except /
+#    - ** matches anything including /
+#    - ? matches any single character
+#    - [abc] matches any character in the set
+#    - {a,b} matches either pattern
+#
+# Examples:
+#   /build/                 @devops          # Root build directory only
+#   docs/**/*.md            @doc-team        # All .md files in docs (recursive)
+#   *.js                    @js-team         # All .js files anywhere
+#   src/**/test/**          @qa-team         # All test directories
+#
+# Order matters! Later matches take precedence.
+#
+# Best Practices:
+# - Start with broader patterns and override with specific ones
+# - Keep the number of reviewers manageable (2-3 per area)
+# - Document why certain files have specific owners
+# - Review and update this file regularly
+# - Consider using GitHub teams instead of individual users
+#
+# ============================================================================
